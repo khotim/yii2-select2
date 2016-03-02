@@ -1,0 +1,22 @@
+{
+    "name": "khotim/yii2-select2",
+    "description": "Select2 extension for the Yii framework",
+    "keywords": ["yii2", "Select2", "yii2-select2"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thimy Khotim",
+            "email": "thimy.khotim@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "khotim\\select2\\": ""
+        }
+    }
+}
