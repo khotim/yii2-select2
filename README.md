@@ -55,7 +55,7 @@ You can also attach this extension in an ActiveField by configuring its `widget(
 ]) ?>
 ```
 Example usage using data source via ajax call:
-#####View
+##### View
 ```php
 <?= $form->field($model, 'option_list')->widget(\khotim\select2\Select2::className(), [
     'clientOptions' => [
@@ -91,7 +91,7 @@ Example usage using data source via ajax call:
     ]
 ])?>
 ```
-#####Controller
+##### Controller
 ```php
 public function actionSearchOption()
 {
@@ -111,7 +111,7 @@ public function actionSearchOption()
 }
 ```
 --------------------
-###Public Properties
+### Public Properties
 Property       &nbsp;|  Type   &nbsp;| Description
 :--------------------|:-------------:|:-----------
 $data          &nbsp;|  array  &nbsp;| The array of data items, similar to how `items` parameter in `\yii\helpers\BaseHtml::dropDownList()`.
